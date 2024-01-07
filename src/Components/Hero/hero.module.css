@@ -1,0 +1,36 @@
+.hero {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 16px 32px;
+}
+
+.hero_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  padding: 42px 0;
+}
+
+.hero_title {
+  font-family: 'inter';
+  font-size: 60px;
+  color: #fff;
+}
+
+.hero_span {
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 16px;
+  font-style: italic;
+}
+
+.hero_p {
+  font-size: 16px;
+  padding: 16px 0 16px 0;
+  max-width: 37ch;
+  color: #fff;
+  font-weight: 300;
+}
