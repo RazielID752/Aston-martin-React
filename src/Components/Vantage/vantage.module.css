@@ -1,0 +1,20 @@
+.Vantage {
+  max-width: 1280px;
+  gap: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button_vantage{
+  display: flex;
+  padding-top: 32px;
+}
+
+.title_vantage {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'inter';
+}
