@@ -15,7 +15,7 @@ const Hero = () => {
               produção definitiva do Aston Martin.
             </p>
           </div>
-          <Button></Button>
+          <Button>Compra</Button>
         </div>
         <div>
           <img src="./carro-preto.png" alt="Carro vintage Preto" />
