@@ -4,7 +4,7 @@ import Footer from "./Components/Footer/footer";
 import Hero from "./Components/Hero/hero";
 import Button from "./Components/Button/button";
 import Vantage from "./Components/Vantage/vantage";
-import BuyVantage from "./Components/buy_vantage/buyVantage";
+import BuyVantage from "./Components/Buyvantage/buyVantage";
 
 const App = () => {
   return (
