@@ -1,5 +1,6 @@
 import styles from "./hero.module.css";
 import Button from "../Button/button";
+import CarPreto from "../../assets/carro-preto.png";
 
 const Hero = () => {
   return (
@@ -15,10 +16,12 @@ const Hero = () => {
               produção definitiva do Aston Martin.
             </p>
           </div>
+          <div className={styles.flex_btn}>
           <Button>Compra</Button>
+          </div>
         </div>
         <div>
-          <img src="./carro-preto.png" alt="Carro vintage Preto" />
+          <img src={CarPreto} alt="Carro vintage Preto" />
         </div>
       </div>
     </div>

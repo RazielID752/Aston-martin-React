@@ -1,11 +1,12 @@
 import styles from "./vantage.module.css";
 import Button from "../Button/button";
+import Carcinza from "../../assets/carrow-cinza.png";
 
 const Vantage = () => {
   return (
     <section className={styles.Vantage}>
       <div className={styles.img_order}>
-        <img src="/carrow-cinza.png" alt="Aston martin Vantage Cinza" />
+        <img src={Carcinza} alt="Aston martin Vantage Cinza" />
       </div>
       <div className={styles.text_order}>
         <h2>
@@ -17,7 +18,7 @@ const Vantage = () => {
           desempenho ágil e habilidade artesanal dedicada.
         </p>
         <div className={styles.button_vantage}>
-          <Button>saiba mais</Button>
+          <Button>Saiba mais</Button>
         </div>
       </div>
     </section>

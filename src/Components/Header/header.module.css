@@ -17,25 +17,83 @@
   padding-right: 26px;
   justify-content: space-between;
 }
-
+#button_mobile{
+  display: none;
+}
 .ul_menu {
   display: flex;
 }
 
 .ul_menu li {
-  padding-right: 32px;
+  padding-right: 42px;
 }
 
 .ul_menu .nav_a{
   font-size: 16px;
   color: #fff;
   font-weight: 300;
+  transition:  .3s;
 }
-
-.login_btn{
+.ul_menu .nav_a:hover{
+  color: #91282F ;
+  background: #fff;
+  padding: 8px;
+  border-radius: 10px;
+}
+.buy_btn{
   color: #fff;
   font-weight: 500;
   border-radius: 10px;
   padding: 10px 30px;
   border: 1px solid #fff;
+}
+.buy_btn:hover{
+  background: #fff;
+  color: #000000;
+}
+.wrap_mobile button{
+  display: none;
+}
+@media(max-width:1024px) {
+  #button-mobile {
+    display: none;
+  }
+}
+@media (max-width: 600px){
+  #menu{
+    display: block;
+    position: fixed;
+  }
+  .wrap_mobile button {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+  }
+  #icon {
+    width: 20px;
+    height: 20px;
+  }
+ .ul_menu li{
+    padding: 1rem 0;
+    margin: 0 1rem;
+  }
+  .ul_menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background-color: rgba(3, 3, 3, 0.9);
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .nav_menu .is-open{
+    height: 100vh;
+    visibility: visible;
+  }
 }

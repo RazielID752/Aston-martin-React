@@ -34,3 +34,27 @@
   color: #fff;
   font-weight: 300;
 }
+
+
+@media(max-width:600px){
+  .hero_wrapper{
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .hero_wrapper div img{
+    width: 80%;
+    padding-top: 16px;
+    margin: 0 auto;
+  }
+  .hero_title{
+    text-align: center;
+  }
+  .hero_p{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .flex_btn{
+    display: flex;
+    justify-content: center ;
+  }
+}

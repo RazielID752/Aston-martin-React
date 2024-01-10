@@ -1,0 +1,46 @@
+.BuyVantage{
+  margin-bottom: 64px;
+  padding: 16px;
+}
+.BuyVantage_wrapper{
+  margin: 0 auto;
+  max-width: 1280px;
+  background: linear-gradient(90deg, #91282F 0.44%, #330002 98.92%);
+  border-radius: 10px;
+}
+
+.BuyVantage_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px;
+}
+.BuyVantage_h2{
+  padding-bottom: 16px;
+  color: #fff;
+  font-size: 36px;
+  max-width: 20ch;
+  font-weight: 600;
+}
+.BuyVantage_p{
+  padding-bottom: 16px;
+  max-width: 40ch;
+  color: #fff;
+}
+
+@media(max-width:600px){
+  .BuyVantage_content{
+    flex-direction: column;
+  }
+  .BuyVantage_h2{
+    text-align: center;
+  }
+  .BuyVantage_p{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .BuyVantage_btn{
+    display: flex;
+    justify-content: center;
+  }
+}
